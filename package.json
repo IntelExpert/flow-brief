@@ -1,0 +1,30 @@
+{
+  "name": "flow-brief",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "brief:morning": "node scripts/morning-run.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.577.0",
+    "next": "16.2.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "vitest": "^4.0.17"
+  }
+}
